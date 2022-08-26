@@ -14,12 +14,13 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/62ea33de3c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <header>
-    <section>
+    <section class="container-fluid">
       <nav class="navbar bg-light shadow-sm fs-2">
         <div class="container-fluid">
           <a class="" href="#">
@@ -47,67 +48,116 @@
   <main>
     <section class="container-fluid">
       <div class="row shadow-sm bg-color pb-5">
-        <h5 class="mb-3 pt-4">Subtle Heading</h5>
+        <h5 class="col-12 mb-3 pt-4">Subtle Heading</h5>
         <form action="on-submit" class="col-3 bg-white">
-          <div class="">
-            <h4 class="shadow-sm">LESS SUBTLE HEADING</h4>
-            <div class="shadow-sm">NAME</div>
-            <div class="shadow-sm">EMAIL</div>
+          <div class="col-12">
+            <h4 class="col-12 shadow-sm">LESS SUBTLE HEADING</h4>
+            <div class="col-12 shadow-sm">NAME</div>
+            <div class="col-12 shadow-sm">EMAIL</div>
+
             <!-- TODO: space these -->
-            <div class="shadow-sm d-flex">PHONE
+            <div class="col-12 shadow-sm d-flex">PHONE
               <div class="shadow-sm">EXT.
+                <!-- TODO: end -->
 
               </div>
             </div>
-            <div class="shadow-sm">MESSAGE</div>
+            <div class="col-12 shadow-sm">MESSAGE</div>
 
-            <div class="mt-4">
-              <em>
-                by checking this box I do swear my blood and honor to the service of Ulfric Stormcloak Jarl
+            <div class="col mt-4">
+              <em><i class="fa-thin fa-square-check fs-3"></i>
+                by checking this box I swear my blood and honor to the service of Ulfric Stormcloak Jarl
                 of Windhelm and true High King of Skyrim. As Talos is my witness, may this oath bind me to death and
                 beyond.
               </em>
             </div>
-            <button class="mt-4">SUBMIT</button>
+            <button class="col-4 mt-4">SUBMIT</button>
           </div>
         </form>
 
 
-
-        <div class="col-7">
+        <div class="card">
           <img src="https://i.pinimg.com/originals/7c/8a/6d/7c8a6d5f9810af6e94db9fef14bdf794.jpg"
-            alt="stormcloak wallpaper" class="stormcloak-bg">
+            alt="stormcloak wallpaper" class="card-img stormcloak-bg">
+          <div class="card-img-overlay">
+            <p class="card-text">TEXT STUFF HERE</p>
+          </div>
         </div>
-
       </div>
     </section>
 
 
-    <section>
+
+    <!-- TODO: make card and style first box -->
+    <section class="container-fluid">
+      <div class="row bg-danger">
+        <h4>Lorem</h4>
+        <h4>Lorem</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, aut.</p>
+      </div>
+
+      <div class="col-5 bg-success">
+        <i>Point One</i>
+        <i>Point Two</i>
+        <i>Point Three</i>
+        <i>Point Four</i>
+        <i>Point Five</i>
+      </div>
+    </section>
+    <!-- TODO: end -->
+
+
+
+    <section class="container">
+      <div class="col-4 d-flex">
+        <img src="//thiscatdoesnotexist.com" alt="">
+
+
+        <div class="col-8 bg-primary">
+          <i>
+            <h2>TITLE</h2>
+          </i>
+          <div>
+            <h2>TITLE TWO</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptas aperiam perspiciatis provident,
+              recusandae omnis.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
 
-    <section>
-    </section>
+    <section class="container">
+      <div class="row d-flex justify-content-space-around align-content-center bg-secondary">
+        <div class="col-3 shadow-sm">
+          review one
+        </div>
 
+        <div class="col-3 shadow-sm">
+          Three stars
+        </div>
 
-    <section>
+        <div class="col-3 shadow-sm">
+          review two
+        </div>
+      </div>
     </section>
   </main>
 
 
 
   <footer>
-    <section>
+    <section class="container-fluid">
 
       <!-- ANCHOR -->
-      <div>
-        <h1></h1>
-        <p></p>
+      <div class="row bg-success">
+        <h2>TEXT STUFF I DONT KNOW WHAT TO PUT HERE</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, delectus.</p>
       </div>
 
       <!-- ANCHOR -->
-      <div>
+      <div class="col-12 bg-info">
+        <p>Much padding needed here</p>
       </div>
 
     </section>

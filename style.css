@@ -1,5 +1,5 @@
 :root {
-  --primary: grey;
+  --primary: rgb(115, 117, 133);
 }
 
 .stormcloak-logo {
@@ -8,9 +8,25 @@
 }
 
 .stormcloak-bg {
-  width: 55vw;
-  height: 60vh;
-  margin-left: 6rem;
+  width: 57vw;
+  height: 65vh;
+  margin-left: 5rem;
+  padding-bottom: 2rem;
+}
+
+.card {
+  width: 45rem;
+  left: 1rem;
+  height: 28rem;
+  background: var(--primary);
+  color: #5fff56;
+  position: relative;
+}
+
+.card-img-overlay {
+  top: 10px;
+  left: 30rem;
+  right: 54px
 }
 
 form {
@@ -23,5 +39,5 @@ h5 {
 }
 
 .bg-color {
-  background: rgb(115, 117, 133);
+  background: var(--primary);
 }
