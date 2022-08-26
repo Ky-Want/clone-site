@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,11 +23,13 @@
       <nav class="navbar bg-light shadow-sm fs-2">
         <div class="container-fluid">
           <a class="" href="#">
-            <img src="http://pm1.narvii.com/6399/f15d0568fdb21750ed7961fa543996d3b1bf08fd_00.jpg" alt="stormcloak-logo">
+            <img src="http://pm1.narvii.com/6399/f15d0568fdb21750ed7961fa543996d3b1bf08fd_00.jpg" alt="stormcloak-logo"
+              class="stormcloak-logo">
           </a>
 
           <div id="navbarNav">
-            <div>THE STORM CLOAKS NEED <strong>YOU</strong></div>
+            <!-- TODO: move text next to logo -->
+            <div class="fs-4">STORMCLOAK RECRUITMENT</div>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#main"></a>
@@ -42,30 +45,40 @@
 
 
   <main>
-    <section>
-      <div class="shadow-sm">
-        <h3>Subtle Heading</h3>
-        <form action="on-submit">
-          <h2>LESS SUBTLE HEADING</h2>
-          <div>NAME</div>
-          <div>EMAIL</div>
-          <div>PHONE
-            <div>EXT.
+    <section class="container-fluid">
+      <div class="row shadow-sm bg-color pb-5">
+        <h5 class="mb-3 pt-4">Subtle Heading</h5>
+        <form action="on-submit" class="col-3 bg-white">
+          <div class="">
+            <h4 class="shadow-sm">LESS SUBTLE HEADING</h4>
+            <div class="shadow-sm">NAME</div>
+            <div class="shadow-sm">EMAIL</div>
+            <!-- TODO: space these -->
+            <div class="shadow-sm d-flex">PHONE
+              <div class="shadow-sm">EXT.
+
+              </div>
             </div>
+            <div class="shadow-sm">MESSAGE</div>
+
+            <div class="mt-4">
+              <em>
+                by checking this box I do swear my blood and honor to the service of Ulfric Stormcloak Jarl
+                of Windhelm and true High King of Skyrim. As Talos is my witness, may this oath bind me to death and
+                beyond.
+              </em>
+            </div>
+            <button class="mt-4">SUBMIT</button>
           </div>
-          <div>MESSAGE</div>
-      </div>
+        </form>
 
-      <div class="mt-4"><em>by checking this box I do swear my blood and
-          honor to the service of Ulfric Stormcloak
-          Jarl of Windhelm and true High King of Skyrim.
-          As Talos is my witness, may this oath bind me
-          to death and beyond.</em>
-      </div>
-      </form>
 
-      <div class="">
-        <img src="" alt="">
+
+        <div class="col-7">
+          <img src="https://i.pinimg.com/originals/7c/8a/6d/7c8a6d5f9810af6e94db9fef14bdf794.jpg"
+            alt="stormcloak wallpaper" class="stormcloak-bg">
+        </div>
+
       </div>
     </section>
 

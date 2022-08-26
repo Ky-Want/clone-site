@@ -1,0 +1,27 @@
+:root {
+  --primary: grey;
+}
+
+.stormcloak-logo {
+  height: 10vh;
+  margin-bottom: 1rem;
+}
+
+.stormcloak-bg {
+  width: 55vw;
+  height: 60vh;
+  margin-left: 6rem;
+}
+
+form {
+  margin-left: 3rem;
+  height: 25rem;
+}
+
+h5 {
+  margin-left: 3rem;
+}
+
+.bg-color {
+  background: rgb(115, 117, 133);
+}
