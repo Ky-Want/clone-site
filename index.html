@@ -36,7 +36,6 @@
         <div class="navBarWantedText">
           STORMCLOAKS WANTED
         </div>
-        <!-- <span id="navBarWantedText" class="navbar-brand text-light fs-1">STORMCLOAKS WANTED</span> -->
       </div>
     </nav>
 
@@ -46,61 +45,56 @@
 
 
 
-  <!-- ANCHOR:-->
+
   <main id="main">
+
+    <!-- ANCHOR: skyrim background image -->
     <section class="container-fluid">
-      <div class="row bg-secondary d-flex">
+      <div class="row bg-secondary d-flex" style="background-image: url('https://i.pinimg.com/736x/cd/b4/85/cdb4855f2a084cd7d5e493006c039057--ulfric-stormcloak-elder-scrolls-v-skyrim.jpg'); 
+        background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
 
         <h5 class="shackles-quote"><strong>"Throw off the shackles of Imperial oppression and join us today."</strong>
         </h5>
 
 
-        <div class="d-flex pb-5 pt-3">
-          <div class="row">
 
-            <!-- TODO: Fix the image and make it fit -->
-            <div class="stormcloak-wallpaper">
-              <p
-                style="background-image: url('https://i.pinimg.com/736x/cd/b4/85/cdb4855f2a084cd7d5e493006c039057--ulfric-stormcloak-elder-scrolls-v-skyrim.jpg');">
-            </div>
+        <!-- ANCHOR: tell us about yourself form -->
+        <section class="container">
+          <form action="on-submit">
 
+            <div class="col-md-3 bg-light shadow-lg p-3">
+              <h3>Tell Us About Yourself:</h3>
 
-            <!-- TODO: fix all the boxes and make space between them -->
-            <form action="on-submit" class="col-md-4 bg-light shadow-lg pt-3 pb-3">
-              <div class="card">
-                <div class="card-header">
-                  Tell Us About Yourself:
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">NAME</li>
+              <label for="name">NAME</label><br>
+              <input type="text" id="name" name="name"><br>
 
-                  <div class="d-flex">
-                    <!-- TODO: fix the boxes -->
-                    <li class="list-group-item">FAMILY CREST</li>
-                    <li class="list-group-item">EXT.</li>
-                    <!-- TODO: end -->
-                  </div>
+              <!-- TODO: make them fit next to each other -->
+              <div class="d-flex align-items-center">
+                <label for="familyCrest">FAMILY CREST</label><br>
+                <input type="text" id="familyCrest" familyCrest="familyCrest"><br>
 
-                  <li class="list-group-item">MESSAGE</li>
-                  <div class="checkbox-box">
-                    <li class="list-group-item">
-                      <i class="fa-solid fa-square-check"></i>
-                      by checking this box I do swear my blood and
-                      honor to the service of Ulfric Stormcloak
-                      Jarl of Windhelm and true High King of Skyrim.
-                      As Talos is my witness, may this oath bind me
-                      to death and beyond
-                    </li>
-                  </div>
-                </ul>
+                <label for="post">POST</label><br>
+                <input type="text" id="post" post="post"><br>
               </div>
-              <button class="submit-btn">SUBMIT</button>
-            </form>
+              <!-- ANCHOR -->
 
-          </div>
-        </div>
-      </div>
-    </section>
+              <label for="ext">EXT.</label><br>
+              <input type="text" id="ext" ext="ext"><br>
+
+              <label for="message">MESSAGE</label><br>
+              <input type="text" id="message" message="message"><br>
+
+              <label for="checkBox"><input type="checkbox"> by checking this box I do swear my blood and
+                honor to the service of Ulfric Stormcloak
+                Jarl of Windhelm and true High King of Skyrim.
+                As Talos is my witness, may this oath bind me
+                to death and beyond.</label><br>
+
+              <input type="submit" value="Submit" class="mt-3">
+            </div>
+          </form>
+        </section>
+
   </main>
 
 
@@ -109,9 +103,6 @@
 
   <!-- ANCHOR:-->
   <footer>
-
-
-
   </footer>
 
 
