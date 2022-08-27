@@ -16,6 +16,10 @@
   <script src="https://kit.fontawesome.com/62ea33de3c.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
 </head>
 
 
@@ -51,50 +55,68 @@
     <!-- ANCHOR: skyrim background image -->
     <section class="container-fluid">
       <div class="row bg-secondary d-flex" style="background-image: url('https://i.pinimg.com/736x/cd/b4/85/cdb4855f2a084cd7d5e493006c039057--ulfric-stormcloak-elder-scrolls-v-skyrim.jpg'); 
-        background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-attachment: fixed;">
 
-        <h5 class="shackles-quote"><strong>"Throw off the shackles of Imperial oppression and join us today."</strong>
-        </h5>
-
+        <h4 class="shackles-quote"><strong>"Throw off the shackles of Imperial oppression and join us today."</strong>
+        </h4>
 
 
         <!-- ANCHOR: tell us about yourself form -->
         <section class="container">
-          <form action="on-submit">
+          <div class="d-flex">
+            <form action="on-submit">
 
-            <div class="col-md-3 bg-light shadow-lg p-3">
-              <h3>Tell Us About Yourself:</h3>
+              <div class="col-md-3 col-sm-12 bg-light shadow-lg p-4">
+                <h3>Tell Us About Yourself:</h3>
 
-              <label for="name">NAME</label><br>
-              <input type="text" id="name" name="name"><br>
+                <!-- NAME -->
+                <label for="name"></label><br>
+                <input type="text" placeholder="NAME" id="name" name="name"><br>
 
-              <!-- TODO: make them fit next to each other -->
-              <div class="d-flex align-items-center">
-                <label for="familyCrest">FAMILY CREST</label><br>
-                <input type="text" id="familyCrest" familyCrest="familyCrest"><br>
+                <!-- FAMILY CREST -->
+                <label for="familyCrest"></label><br>
+                <input type="text" placeholder="FAMILY CREST" id="familyCrest" familyCrest="familyCrest"><br>
 
-                <label for="post">POST</label><br>
-                <input type="text" id="post" post="post"><br>
+                <!-- POST and EXT -->
+                <br>
+                <div class="d-flex ">
+                  <label for="post"></label><br>
+                  <input type="text" placeholder="POST" id="post" post="post"><br>
+
+                  <label for="ext"></label><br>
+                  <input type="text" placeholder="EXT." id="ext" ext="ext"><br>
+                </div>
+
+                <!-- MESSAGE -->
+                <label for="message"></label><br>
+                <input type="text" placeholder="MESSAGE" id="message" message="message"><br>
+
+                <!-- CHECK BOX -->
+                <label for="checkBox"><input type="checkbox"> by checking this box I do swear my blood and
+                  honor to the service of Ulfric Stormcloak
+                  Jarl of Windhelm and true High King of Skyrim.
+                  As Talos is my witness, may this oath bind me
+                  to death and beyond.</label><br>
+
+                <input type="submit" value="Submit" class="mt-3">
               </div>
-              <!-- ANCHOR -->
 
-              <label for="ext">EXT.</label><br>
-              <input type="text" id="ext" ext="ext"><br>
+              <div class="row">
+                <div class="column">
+                  <div class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quisquam magnam ipsa
+                    ab
+                    accusamus, porro facilis veritatis nemo, velit asperiores corporis! Quod dolore tenetur voluptatem
+                    fuga
+                    fugiat enim dignissimos eum!</div>
+                </div>
+              </div>
+            </form>
 
-              <label for="message">MESSAGE</label><br>
-              <input type="text" id="message" message="message"><br>
 
-              <label for="checkBox"><input type="checkbox"> by checking this box I do swear my blood and
-                honor to the service of Ulfric Stormcloak
-                Jarl of Windhelm and true High King of Skyrim.
-                As Talos is my witness, may this oath bind me
-                to death and beyond.</label><br>
 
-              <input type="submit" value="Submit" class="mt-3">
-            </div>
-          </form>
         </section>
-
   </main>
 
 
