@@ -3,6 +3,7 @@
   --card: rgb(45, 228, 45);
 }
 
+/* #region: navBar */
 .navBarWantedText {
   color: rgb(230, 224, 224);
   font-size: 2rem;
@@ -18,4 +19,14 @@
   max-width: 5rem;
   max-height: 5rem;
   object-fit: contain;
+}
+
+/* #endregion: navBar */
+
+.stormcloak-wallpaper {
+  background-image: url('https: //static.wikia.nocookie.net/elderscrolls/images/2/2b/Ulfric%27s_Uprising_card_art.png/revision/latest?cb=20180201145600');
+}
+
+.form-section {
+  height: 5rem;
 }
