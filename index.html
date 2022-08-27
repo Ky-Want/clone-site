@@ -14,6 +14,8 @@
 
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/62ea33de3c.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
 </head>
 
 
@@ -49,26 +51,53 @@
     <section class="container-fluid">
       <div class="row bg-secondary d-flex">
 
-        <h5>"Throw off the shackles of Imperial oppression and join us today."</h5>
+        <h5 class="shackles-quote"><strong>"Throw off the shackles of Imperial oppression and join us today."</strong>
+        </h5>
 
-        <div class="d-flex">
-          <form action="on-submit" class="col-4 bg-light shadow-sm">
-            <h4>Tell Us About Yourself;</h4>
-            <div class="shadow-sm">NAME</div>
-            <div class="shadow-sm">FAMILY CREST</div>
-            <div class="shadow-sm">EXT.</div>
-            <div class="shadow-sm">MESSAGE</div>
-            <div>by checking this box I do swear my blood and
-              honor to the service of Ulfric Stormcloak
-              Jarl of Windhelm and true High King of Skyrim.
-              As Talos is my witness, may this oath bind me
-              to death and beyond</div>
-          </form>
+        <div class="d-flex pb-5 pt-3">
+          <div class="row">
 
-          <div class="stormcloak-wallpaper">
-            <img
-              src="https://static.wikia.nocookie.net/elderscrolls/images/2/2b/Ulfric%27s_Uprising_card_art.png/revision/latest?cb=20180201145600"
-              alt="stormcloak wallpaper">
+            <!-- TODO: Fix the image and make it fit -->
+            <div class="col-md-5 stormcloak-wallpaper">
+              <img
+                src="https://i.pinimg.com/736x/cd/b4/85/cdb4855f2a084cd7d5e493006c039057--ulfric-stormcloak-elder-scrolls-v-skyrim.jpg"
+                alt="stormcloak wallpaper">
+            </div>
+
+
+            <form action="on-submit" class="col-md-4 bg-light shadow-lg pt-3 pb-3">
+              <div class="card">
+                <div class="card-header">
+                  Tell Us About Yourself:
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">NAME</li>
+
+                  <div class="d-flex">
+                    <!-- TODO: put these two together -->
+                    <li class="list-group-item">FAMILY CREST</li>
+                    <li class="list-group-item">EXT.</li>
+                    <!-- TODO end -->
+                  </div>
+
+                  <li class="list-group-item">MESSAGE</li>
+                  <div class="checkbox-box">
+                    <li class="list-group-item">
+                      <i class="fa-solid fa-square-check"></i>
+                      by checking this box I do swear my blood and
+                      honor to the service of Ulfric Stormcloak
+                      Jarl of Windhelm and true High King of Skyrim.
+                      As Talos is my witness, may this oath bind me
+                      to death and beyond
+                    </li>
+                  </div>
+                </ul>
+              </div>
+              <button class="submit-btn">SUBMIT</button>
+            </form>
+
+
+
           </div>
         </div>
 
