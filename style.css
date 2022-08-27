@@ -23,10 +23,6 @@
 
 /* #endregion: navBar */
 
-.stormcloak-wallpaper {
-  background-image: url("https: //i.pinimg.com/736x/cd/b4/85/cdb4855f2a084cd7d5e493006c039057--ulfric-stormcloak-elder-scrolls-v-skyrim.jpg");
-}
-
 .shackles-quote {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -42,5 +38,3 @@ form {
   margin-top: 1rem;
   margin-left: 1rem;
 }
-
-/* .checkbox-box {} */
