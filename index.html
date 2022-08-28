@@ -24,8 +24,6 @@
 
 
 
-
-
 <body>
 
   <!-- TODO: move text to left side next to logo -->
@@ -66,56 +64,59 @@
         <!-- ANCHOR: tell us about yourself form -->
         <section class="container">
           <div class="d-flex">
+
             <form action="on-submit">
-
-              <div class="col-md-3 col-sm-12 bg-light shadow-lg p-4">
-                <h3>Tell Us About Yourself:</h3>
-
-                <!-- NAME -->
-                <label for="name"></label><br>
-                <input type="text" placeholder="NAME" id="name" name="name"><br>
-
-                <!-- FAMILY CREST -->
-                <label for="familyCrest"></label><br>
-                <input type="text" placeholder="FAMILY CREST" id="familyCrest" familyCrest="familyCrest"><br>
-
-                <!-- POST and EXT -->
-                <br>
-                <div class="d-flex ">
-                  <label for="post"></label><br>
-                  <input type="text" placeholder="POST" id="post" post="post"><br>
-
-                  <label for="ext"></label><br>
-                  <input type="text" placeholder="EXT." id="ext" ext="ext"><br>
-                </div>
-
-                <!-- MESSAGE -->
-                <label for="message"></label><br>
-                <input type="text" placeholder="MESSAGE" id="message" message="message"><br>
-
-                <!-- CHECK BOX -->
-                <label for="checkBox"><input type="checkbox"> by checking this box I do swear my blood and
-                  honor to the service of Ulfric Stormcloak
-                  Jarl of Windhelm and true High King of Skyrim.
-                  As Talos is my witness, may this oath bind me
-                  to death and beyond.</label><br>
-
-                <input type="submit" value="Submit" class="mt-3">
-              </div>
-
               <div class="row">
-                <div class="column">
+                <div class="col-3">
                   <div class="card">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quisquam magnam
                     ipsa
                     ab
                     accusamus, porro facilis veritatis nemo, velit asperiores corporis! Quod dolore tenetur voluptatem
                     fuga
-                    fugiat enim dignissimos eum!</div>
+                    fugiat enim dignissimos eum!
+                  </div>
                 </div>
-              </div>
-            </form>
-          </div>
 
+
+
+                <div class="col-md-3 col-sm-12 bg-light shadow-lg p-4">
+                  <h3>Tell Us About Yourself:</h3>
+                  <!-- #region: form stuff -->
+                  <!-- NAME -->
+                  <label for="name"></label><br>
+                  <input type="text" placeholder="NAME" id="name" name="name"><br>
+
+                  <!-- FAMILY CREST -->
+                  <label for="familyCrest"></label><br>
+                  <input type="text" placeholder="FAMILY CREST" id="familyCrest" familyCrest="familyCrest"><br>
+
+                  <!-- POST and EXT -->
+                  <br>
+                  <div class="d-flex ">
+                    <label for="post"></label><br>
+                    <input type="text" placeholder="POST" id="post" post="post"><br>
+
+                    <label for="ext"></label><br>
+                    <input type="text" placeholder="EXT." id="ext" ext="ext"><br>
+                  </div>
+
+                  <!-- MESSAGE -->
+                  <label for="message"></label><br>
+                  <input type="text" placeholder="MESSAGE" id="message" message="message"><br>
+
+                  <!-- CHECK BOX -->
+                  <label for="checkBox"><input type="checkbox"> by checking this box I do swear my blood and
+                    honor to the service of Ulfric Stormcloak
+                    Jarl of Windhelm and true High King of Skyrim.
+                    As Talos is my witness, may this oath bind me
+                    to death and beyond.</label><br>
+
+                  <input type="submit" value="Submit" class="mt-3">
+                </div>
+                <!-- #endregion: form stuff -->
+              </div>
+          </div>
+          </form>
         </section>
   </main>
 
