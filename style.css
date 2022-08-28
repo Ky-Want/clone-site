@@ -71,8 +71,8 @@ form {
 .card {
   width: 17rem;
   height: 14rem;
-  left: 53rem;
-  bottom: 35rem;
+  top: 3rem;
+  right: 15rem;
   background: transparent;
   border: transparent;
 }
@@ -83,7 +83,3 @@ form {
 }
 
 /* #endregion */
-
-.section-2 {
-  margin-bottom: 20rem;
-}
