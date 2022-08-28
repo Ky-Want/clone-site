@@ -123,3 +123,26 @@ form {
 }
 
 /* #endregion */
+
+/* #region: box-section */
+.box-section {
+  height: 40rem;
+}
+
+.normal-box {
+  background-color: pink;
+  height: 15rem;
+  width: 20rem;
+}
+
+.big-box {
+  background-color: rgb(177, 177, 230);
+  height: 25;
+  width: 20;
+}
+
+/* #endregion */
+
+.final-section {
+  height: 15rem;
+}
