@@ -27,15 +27,12 @@
 
 /* #endregion: navBar */
 
-#main {
-  margin-top: 3rem;
-}
-
 .shackles-quote {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--green);
   font-family: 'Aboreto', cursive;
+  margin-top: 4rem;
 }
 
 /* #region: form stuff */
@@ -70,6 +67,7 @@ form {
 
 /* #endregion */
 
+/* #region: card 1 */
 .card {
   width: 17rem;
   height: 14rem;
@@ -82,4 +80,10 @@ form {
 .CARD {
   font-family: 'Roboto', sans-serif;
   color: var(--dark);
+}
+
+/* #endregion */
+
+.section-2 {
+  margin-bottom: 20rem;
 }
