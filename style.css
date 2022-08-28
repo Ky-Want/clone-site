@@ -37,11 +37,6 @@
 }
 
 /* #region: form stuff */
-form {
-  margin-bottom: 2rem;
-  margin-left: 2rem;
-}
-
 #name {
   width: 100%;
 }
@@ -68,13 +63,13 @@ form {
 
 /* #endregion */
 
+
 /* #region: card 1 */
 .card {
-
   width: 30rem;
   height: 14rem;
-  bottom: 25rem;
-  left: 45rem;
+  top: 2rem;
+  left: -6rem;
   background: transparent;
   border: transparent;
 }
@@ -86,6 +81,8 @@ form {
 
 /* #endregion */
 
+
+/* #region: card 2 + section 2 */
 .card-2 {
   width: 50rem;
   height: 25rem;
@@ -98,6 +95,8 @@ form {
   height: 20rem;
   padding-left: 1rem;
 }
+
+/* #endregion */
 
 
 /* #region: section 3 stuff */
@@ -126,6 +125,7 @@ form {
 
 /* #endregion */
 
+
 /* #region: box-section */
 .box-section {
   height: 40rem;
@@ -148,7 +148,7 @@ form {
 /* #endregion */
 
 
-
+/* #region: last section stuff */
 .final-section {
   padding-top: 5rem;
   height: 15rem;
@@ -157,4 +157,40 @@ form {
 .footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+/* #endregion */
+
+
+
+
+@media (max-width: 1250px) {
+  .card {
+    display: none;
+  }
+}
+
+@media (max-width: 1250) {
+  form {}
+}
+
+
+
+
+@media (min-width: 1250px) {
+  .medium {
+    display: none;
+  }
+}
+
+@media (max-width: 1250px) {
+  .small {
+    display: none;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hidden-mobile {
+    display: none;
+  }
 }
