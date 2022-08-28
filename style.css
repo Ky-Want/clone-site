@@ -70,10 +70,11 @@ form {
 
 /* #region: card 1 */
 .card {
-  width: 20rem;
+
+  width: 30rem;
   height: 14rem;
-  top: 3rem;
-  right: 15rem;
+  bottom: 25rem;
+  left: 45rem;
   background: transparent;
   border: transparent;
 }
@@ -87,9 +88,10 @@ form {
 
 .card-2 {
   width: 50rem;
-  height: 30rem;
+  height: 25rem;
   margin-top: 5rem;
   margin-left: 15rem;
+  font-size: 2rem;
 }
 
 .section-2 {
@@ -133,16 +135,26 @@ form {
   background-color: pink;
   height: 15rem;
   width: 20rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .big-box {
   background-color: rgb(177, 177, 230);
-  height: 25;
-  width: 20;
+  height: 35;
+  width: 30;
 }
 
 /* #endregion */
 
+
+
 .final-section {
+  padding-top: 5rem;
   height: 15rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
