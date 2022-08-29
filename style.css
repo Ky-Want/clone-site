@@ -87,12 +87,26 @@
 
 
 /* #region: card 2 + section 2 */
+.card-2-small {
+  width: 50rem;
+  height: 13rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-2-small {
+  padding-top: 2rem;
+  height: 33rem;
+}
+
 .card-2 {
   width: 30rem;
   height: 13rem;
   padding: 1rem;
   padding-top: 2rem;
   margin-left: 30rem;
+  border-radius: 9px;
 }
 
 .section-2 {
@@ -111,7 +125,7 @@
 
 .text-section {
   padding-top: 20rem;
-  padding-left: 10rem;
+  padding-left: 5rem;
 }
 
 .stormcloak-woman {
@@ -121,11 +135,29 @@
   margin-left: 5rem;
 }
 
+.crownHeader {
+  justify-content: flex-start;
+}
+
 .more-btn {
-  margin-top: 2rem;
-  margin-left: 40rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  position: absolute;
+  right: 10%;
+}
+
+.stormcloak-woman-small {
+  padding-top: 5rem;
+  width: 100vw;
+}
+
+.text-section-small {
+  width: 50rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.more-btn-small {
+  position: absolute;
+  right: 25%;
 }
 
 /* #endregion */
@@ -133,21 +165,25 @@
 
 /* #region: box-section */
 .box-section {
-  height: 40rem;
+  height: 30rem;
 }
 
-.normal-box {
-  background-color: pink;
+.box-1 {
+  background-color: #f7a0ae;
   height: 15rem;
-  width: 20rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  width: 15rem;
 }
 
-.big-box {
-  background-color: rgb(177, 177, 230);
-  height: 35;
-  width: 30;
+.box-2 {
+  background-color: pink;
+  height: 20rem;
+  width: 20rem;
+}
+
+.box-3 {
+  background-color: #b1b1e6;
+  height: 15rem;
+  width: 15rem;
 }
 
 /* #endregion */
@@ -175,14 +211,8 @@
   }
 }
 
-@media (max-width: 1250px) {
-  .sm {
-    display: none;
-  }
-}
-
 @media (min-width: 1250px) {
-  .md {
+  .hidden-large {
     display: none;
   }
 }
