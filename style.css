@@ -1,7 +1,9 @@
 :root {
   --primary: rgb(115, 117, 133);
+  --light-blue: rgb(168, 168, 236);
   --green: rgb(1, 216, 1);
   --dark: rgb(27, 23, 23);
+  --box-text: rgba(82, 29, 68, 0.888);
 }
 
 /* #region: navBar */
@@ -93,11 +95,15 @@
   padding: 1rem;
   padding-top: 2rem;
   margin-bottom: 2rem;
+  border-radius: .5rem;
+  color: #ddddff;
+  background-color: rgb(3, 50, 50);
 }
 
 .section-2-small {
   padding-top: 2rem;
   height: 33rem;
+  background-color: rgb(139, 207, 139);
 }
 
 .card-2 {
@@ -106,13 +112,16 @@
   padding: 1rem;
   padding-top: 2rem;
   margin-left: 30rem;
-  border-radius: 9px;
+  border-radius: .5rem;
+  color: #ddddff;
+  background-color: rgb(3, 50, 50);
 }
 
 .section-2 {
   padding-top: 2rem;
   height: 25rem;
   padding-left: 1rem;
+  background-color: rgb(139, 207, 139);
 }
 
 /* #endregion */
@@ -121,11 +130,17 @@
 /* #region: section 3 stuff */
 .section-3 {
   height: 50rem;
+  background-color: rgba(85, 115, 215, 0.83);
+}
+
+.section-3-small {
+  background-color: rgba(85, 115, 215, 0.83);
 }
 
 .text-section {
   padding-top: 20rem;
   padding-left: 5rem;
+  color: rgba(155, 37, 37, 0.882);
 }
 
 .stormcloak-woman {
@@ -153,6 +168,7 @@
   width: 50rem;
   padding-top: 3rem;
   padding-bottom: 5rem;
+  color: rgba(155, 37, 37, 0.882);
 }
 
 .more-btn-small {
@@ -166,25 +182,96 @@
 /* #region: box-section */
 .box-section {
   height: 30rem;
+  background-color: rgb(227, 250, 239);
 }
 
 .box-1 {
+  padding: 1rem;
   background-color: #f7a0ae;
-  height: 15rem;
-  width: 15rem;
+  height: 17rem;
+  width: 20rem;
+  font-size: 1rem;
+  background-color: var(--light-blue);
+  color: var(--box-text);
+  border-radius: 1rem;
 }
 
 .box-2 {
+  padding: 1rem;
   background-color: pink;
   height: 20rem;
-  width: 20rem;
+  width: 25rem;
+  font-size: 1rem;
+  background-color: var(--light-blue);
+  color: var(--box-text);
+  border-radius: 1rem;
 }
 
 .box-3 {
+  padding: 1rem;
   background-color: #b1b1e6;
-  height: 15rem;
-  width: 15rem;
+  height: 17rem;
+  width: 20rem;
+  font-size: 1rem;
+  background-color: var(--light-blue);
+  color: var(--box-text);
+  border-radius: 1rem;
 }
+
+.box-2-stars {
+  margin-left: 9.5rem;
+}
+
+
+
+
+
+
+
+.box-section-small {
+  height: 120rem;
+  padding-top: 3rem;
+  background-color: rgb(227, 250, 239);
+}
+
+.box-1-small {
+  padding: 1rem;
+  background-color: #f7a0ae;
+  height: 30rem;
+  width: 50rem;
+  font-size: 2rem;
+  background-color: var(--light-blue);
+  color: var(--box-text);
+  border-radius: 1rem;
+}
+
+.box-2-small {
+  padding: 1rem;
+  background-color: pink;
+  height: 40rem;
+  width: 55rem;
+  font-size: 2rem;
+  background-color: var(--light-blue);
+  color: var(--box-text);
+  border-radius: 1rem;
+}
+
+.box-3-small {
+  padding: 1rem;
+  background-color: #b1b1e6;
+  height: 30rem;
+  width: 50rem;
+  font-size: 2rem;
+  background-color: var(--light-blue);
+  color: var(--box-text);
+  border-radius: 1rem;
+}
+
+.box-2-stars-small {
+  margin-left: 22.7rem;
+  color: green;
+}
+
 
 /* #endregion */
 
