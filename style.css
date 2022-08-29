@@ -280,11 +280,16 @@
 .final-section {
   padding-top: 5rem;
   height: 15rem;
+  background-color: rgb(123, 191, 242);
+  color: rgb(3, 74, 18);
 }
 
 .footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  background-color: aquamarine;
+  border-radius: 1rem;
+  color: #252122;
 }
 
 /* #endregion */
@@ -303,9 +308,3 @@
     display: none;
   }
 }
-
-
-
-
-
-/* 1600 - 1202 */
