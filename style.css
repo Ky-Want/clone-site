@@ -88,9 +88,11 @@
 
 /* #region: card 2 + section 2 */
 .card-2 {
-  width: 35rem;
-  height: 20rem;
-  top: 5rem;
+  width: 30rem;
+  height: 13rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  margin-left: 30rem;
 }
 
 .section-2 {
@@ -169,6 +171,18 @@
 
 @media (max-width: 1250px) {
   .hidden-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1250px) {
+  .sm {
+    display: none;
+  }
+}
+
+@media (min-width: 1250px) {
+  .md {
     display: none;
   }
 }
