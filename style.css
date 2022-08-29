@@ -68,8 +68,6 @@
 .card {
   width: 30rem;
   height: 14rem;
-  top: 2rem;
-  left: -6rem;
   background: transparent;
   border: transparent;
 }
@@ -79,20 +77,25 @@
   color: var(--dark);
 }
 
+@media (max-width: 1250px) {
+  .card {
+    display: none;
+  }
+}
+
 /* #endregion */
 
 
 /* #region: card 2 + section 2 */
 .card-2 {
-  width: 50rem;
-  height: 25rem;
-  margin-top: 5rem;
-  margin-left: 15rem;
-  font-size: 2rem;
+  width: 35rem;
+  height: 20rem;
+  top: 5rem;
 }
 
 .section-2 {
-  height: 20rem;
+  padding-top: 2rem;
+  height: 25rem;
   padding-left: 1rem;
 }
 
@@ -165,32 +168,13 @@
 
 
 @media (max-width: 1250px) {
-  .card {
-    display: none;
-  }
-}
-
-@media (max-width: 1250) {
-  form {}
-}
-
-
-
-
-@media (min-width: 1250px) {
-  .medium {
-    display: none;
-  }
-}
-
-@media (max-width: 1250px) {
-  .small {
-    display: none;
-  }
-}
-
-@media (max-width: 1250px) {
   .hidden-mobile {
     display: none;
   }
 }
+
+
+
+
+
+/* 1600 - 1202 */
